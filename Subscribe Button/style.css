@@ -1,0 +1,50 @@
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color:aliceblue;
+
+}
+
+.subscribe-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: darkred;
+}
+
+.subscribe-button:active {
+    background-color: maroon;
+
+}
+
+.btn-container .subscribe-button {
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+}
+
+
+
